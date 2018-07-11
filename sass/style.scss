@@ -1,0 +1,29 @@
+/*
+Theme Name:Multipurpose Shop
+Theme URI: https://edatastyle.com/product/multipurpose-shop-child-theme-of-corporatesource/
+Author: eDataStyle
+Author URI: https://edatastyle.com
+Template:corporatesource
+Version: 1.5
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, custom-logo, e-commerce, footer-widgets, blog, post-formats, translation-ready, buddypress, custom-colors, featured-images, full-width-template
+Text Domain:multipurpose-shop
+*/
+
+// importing vendors styles
+@import "vendors/normalize/normalize";
+@import "vendors/bourbon/bourbon";
+@import "vendors/sass-css3-mixins/sass-css3-mixins";
+@import "vendors/google-fonts/google-fonts";
+@import "vendors/underscores/underscores";
+@import "vendors/multipurpose-shop";
+@import "base/mixins";
+@import "base/variables";
+@import "base/colors";
+@import "base/fonts";
+@import "base/grid";
+@import "base/buttons";
+@import "modules/navbar";
+@import "modules/footer";
+@import "pages/homepage";

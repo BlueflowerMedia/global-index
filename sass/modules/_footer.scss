@@ -1,0 +1,22 @@
+#colophon {
+    .container {
+      text-align: center;
+      background-color: $black;
+    .footer-social {
+    	width: 70px;
+    }
+    h4 {
+      color: white;
+    }
+
+    .Social {
+      display: flex;
+      width: 250px;
+      margin: 0 auto;
+
+      img {
+        padding: 0 10px;
+      }
+    }
+  }
+}
