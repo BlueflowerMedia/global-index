@@ -24,53 +24,50 @@
 
 <!-- section-main-categories -------------------------------------------->
 <section id="main-categories">
-  <div class="separator"></div>
-  <div class="main-categories">
-    <h1>Main Categories.</h1>
+  <div class="separator">
   </div>
 
-	  <div class="container">
+  <div class="container">
+    <div class="main-categories">
+      <h1>Main Categories.</h1>
+    </div>
 
-	    <div class="categories flex-row">
-
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Gold Coins & Bars</h3></a>
-	      </div>
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-silver.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Silver Coins & Bars</h3></a>
-	      </div>
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-real-estate.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Real Estate</h3></a>
-	      </div>
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-leather.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Leather</h3></a>
-	      </div>
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-card.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Gold Cards</h3></a>
-	      </div>
-	      <div class="category flex1">
-	        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-tshirt.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Merchandise</h3></a>
-	      </div>
-
-	    </div>
-	  </div>
+    <div class="categories flex-row">
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Gold Coins & Bars</h3></a>
+      </div>
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-silver.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Silver Coins & Bars</h3></a>
+      </div>
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-real-estate.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Real Estate</h3></a>
+      </div>
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-leather.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Leather</h3></a>
+      </div>
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-card.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Gold Cards</h3></a>
+      </div>
+      <div class="category flex1">
+        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-tshirt.png" alt="">
+        <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Merchandise</h3></a>
+      </div>
+    </div>
+	</div>
 </section>
 
 <!-- section-helpyou -------------------------------------------->
 
 <section id="section-helpyou">
 	  <div class="container">
-
       <h2>How we help you.</h2>
 
 	    <div class="helpyous flex-row">
-
 	      <div class="helpyou flex1">
 	        <img class="pichelpyou" src="<?php echo get_stylesheet_directory_uri(); ?>/images/helpyou/global-index-icon-1.png" alt="">
 	        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Profitable</h3><h5>Build your future with long term asset</h5></a>
@@ -199,15 +196,15 @@
 					</div>
 				</div>
         <!-- rich 10 ----->
-					<div class="rich1 flex-row">
-						<div class="c1 flex1">
-							<img class="picture-rich" src="<?php echo get_stylesheet_directory_uri(); ?>/images/picture-rich/10-Michael-Avery.jpg" alt="">
-						</div>
-						<div class="c2 flex4">
-							<h3>Michael Avery</h3>
-							<p>(holds $3.3 billion of Waddell & Reed fund in gold)</p>
-							<p>“In 5,000 years of human history, gold has been the currency of choice, the store of value, when humans have called into question their governments’ efforts to solve problems by running printing presses and injecting money into the economy.”</p>
-					</div>
+        <div class="rich1 flex-row">
+          <div class="c1 flex1">
+            <img class="picture-rich" src="<?php echo get_stylesheet_directory_uri(); ?>/images/picture-rich/12-Eric-Mindich.jpg" alt="">
+          </div>
+          <div class="c2 flex4">
+            <h3>Eric Mindich</h3>
+            <p>(over $800 million invested in gold)</p>
+            <p>“Gold is poised to complete its 11th consecutive annual gain, the longest winning streak in at least nine decades, on the brink of a bear market.”</p>
+          </div>
 				</div>
         <!-- rich 11 ----->
 					<div class="rich1 flex-row">
@@ -222,13 +219,13 @@
 				</div>
         <!-- rich 12 ----->
 					<div class="rich1 flex-row">
-						<div class="c1 flex1">
-							<img class="picture-rich" src="<?php echo get_stylesheet_directory_uri(); ?>/images/picture-rich/12-Eric-Mindich.jpg" alt="">
+            <div class="c1 flex1">
+							<img class="picture-rich" src="<?php echo get_stylesheet_directory_uri(); ?>/images/picture-rich/10-Michael-Avery.jpg" alt="">
 						</div>
 						<div class="c2 flex4">
-							<h3>Eric Mindich</h3>
-							<p>(over $800 million invested in gold)</p>
-							<p>“Gold is poised to complete its 11th consecutive annual gain, the longest winning streak in at least nine decades, on the brink of a bear market.”</p>
+							<h3>Michael Avery</h3>
+							<p>(holds $3.3 billion of Waddell & Reed fund in gold)</p>
+							<p>“In 5,000 years of human history, gold has been the currency of choice, the store of value, when humans have called into question their governments’ efforts to solve problems by running printing presses and injecting money into the economy.”</p>
 					</div>
 				</div>
         <!-- rich 13 ----->

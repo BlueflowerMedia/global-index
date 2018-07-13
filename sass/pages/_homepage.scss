@@ -31,6 +31,9 @@
   height: 70vh;
   width: 100vw;
   position: relative;
+	@include mobile {
+		height: 190px;
+	}
 }
 
 .slideshow {
@@ -111,7 +114,7 @@
     }
 
     .category {
-      width: 33%;
+      width: 30%;
 			min-width: 300px;
       display: flex;
 			padding: 30px;
@@ -140,15 +143,15 @@
   padding: 0;
   background-color: $red;
 
-	h2 {
-		font-family: $font-primary;
-		text-align: center;
-		color: white;
-		margin: 0;
-		padding: 0;
-	}
-
   .container {
+
+		h2 {
+			font-family: $font-primary;
+			text-align: center;
+			color: white;
+			margin: 0;
+			padding: 0;
+		}
 
     h3,h5 {
       font-family: $font-secondary;
@@ -163,7 +166,7 @@
       display: flex;
 			min-width: 200px;
       flex-direction: column;
-			width: 33%;
+			width: 30%;
 			padding: 30px;
 
       a {
@@ -184,7 +187,7 @@
 #section-rich {
   margin: 0;
   padding: 0;
-  background-color: $black;
+  background: $black;
 
 	h1 {
 		font-family: $font-primary;

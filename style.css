@@ -1680,6 +1680,9 @@ nav#site-navigation {
   height: 70vh;
   width: 100vw;
   position: relative; }
+  @media (max-width: 760px) {
+    .main-screen {
+      height: 190px; } }
 
 .slideshow {
   display: block;
@@ -1741,7 +1744,7 @@ nav#site-navigation {
     padding: 0;
     color: white; }
   #main-categories .container .category {
-    width: 33%;
+    width: 30%;
     min-width: 300px;
     display: flex;
     padding: 30px;
@@ -1761,7 +1764,7 @@ nav#site-navigation {
   margin: 0;
   padding: 0;
   background-color: #931606; }
-  #section-helpyou h2 {
+  #section-helpyou .container h2 {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     color: white;
@@ -1778,7 +1781,7 @@ nav#site-navigation {
     display: flex;
     min-width: 200px;
     flex-direction: column;
-    width: 33%;
+    width: 30%;
     padding: 30px; }
     #section-helpyou .container .helpyou a {
       text-decoration: none; }
@@ -1792,7 +1795,7 @@ nav#site-navigation {
 #section-rich {
   margin: 0;
   padding: 0;
-  background-color: #242424; }
+  background: #242424; }
   #section-rich h1 {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
