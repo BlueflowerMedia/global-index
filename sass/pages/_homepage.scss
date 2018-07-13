@@ -85,26 +85,24 @@
   background-size: cover;
 }
 
-// main-categories
+// main-categories -------------------------
 #main-categories {
+  background-color: $black;
+
 	.separator {
 			border-bottom: 10px solid $gold;
 	}
 
-  margin: 0;
-  padding: 0;
-  background-color: $black;
-
-	h1 {
-		font-family: $font-primary;
-		text-align: center;
-		color: white;
+  .category-container {
 		margin: 0;
 		padding: 0;
-	}
-
-  .container {
-
+		h2 {
+			font-family: $font-primary;
+			text-align: center;
+			color: white;
+			margin: 10px;
+			padding: 0;
+		}
     h3 {
       font-family: $font-primary;
       text-align: center;
@@ -112,7 +110,11 @@
       padding: 0;
       color: white;
     }
-
+		.categories {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+		}
     .category {
       width: 30%;
 			min-width: 300px;
@@ -128,9 +130,9 @@
         object-fit: cover;
 				background-color: #eeeeef;
         width: 100%;
-				min-width: 300px;
-        margin: 0;
-        padding: 0;
+				max-width: 300px;
+        margin: 0 auto;
+        padding: 0 auto;
 				border-radius: 20px;
 
       }
@@ -139,12 +141,9 @@
 }
 // section-helpyou -------------------------
 #section-helpyou {
-  margin: 0;
-  padding: 0;
   background-color: $red;
 
   .container {
-
 		h2 {
 			font-family: $font-primary;
 			text-align: center;
@@ -153,7 +152,7 @@
 			padding: 0;
 		}
 
-    h3,h5 {
+    h3,h4 {
       font-family: $font-secondary;
       text-align: center;
       margin: 0;
@@ -176,8 +175,8 @@
       img {
         object-fit: cover;
         width: 100%;
-				min-width: 200px;
-        margin: 0;
+				max-width: 200px;
+        margin: 0 auto;
         padding: 0;
       }
     }
@@ -197,7 +196,10 @@
 		padding: 0;
 	}
 
-  .container {
+  .rich-container {
+		padding: 40px 10px;
+		max-width: 1200px;
+		margin: 0 auto;
 
     h3 {
       font-family: $font-primary;

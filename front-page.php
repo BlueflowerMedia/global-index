@@ -27,12 +27,12 @@
   <div class="separator">
   </div>
 
-  <div class="container">
-    <div class="main-categories">
-      <h1>Main Categories.</h1>
+  <div class="category-container">
+    <div>
+      <h2>Main Categories.</h2>
     </div>
 
-    <div class="categories flex-row">
+    <div class="categories">
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Gold Coins & Bars</h3></a>
@@ -70,15 +70,15 @@
 	    <div class="helpyous flex-row">
 	      <div class="helpyou flex1">
 	        <img class="pichelpyou" src="<?php echo get_stylesheet_directory_uri(); ?>/images/helpyou/global-index-icon-1.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Profitable</h3><h5>Build your future with long term asset</h5></a>
+	        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Profitable</h3><h4>Build your future with long term asset</h4></a>
 	      </div>
 	      <div class="helpyou flex1">
 	        <img class="pichelpyou" src="<?php echo get_stylesheet_directory_uri(); ?>/images/helpyou/global-index-icon-2.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Secure</h3><h5>Our platform is a reliable and secure platform for your savings portfolio.</h5></a>
+	        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Secure</h3><h4>Our platform is a reliable and secure platform for your savings portfolio.</h4></a>
 	      </div>
 	      <div class="helpyou flex1">
 	        <img class="pichelpyou" src="<?php echo get_stylesheet_directory_uri(); ?>/images/helpyou/global-index-icon-3.png" alt="">
-	        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Afilliate Incentives</h3><h5>Earn gold or silver for your referrals, starting wit your first one!</h5></a>
+	        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Afilliate Incentives</h3><h4>Earn gold or silver for your referrals, starting wit your first one!</h4></a>
 	      </div>
 
 	    </div>
@@ -88,7 +88,7 @@
 <!-- section-rich -------------------------------------------->
 <section id="section-rich">
 
-	  <div class="container">
+	  <div class="rich-container">
 
 			<div class="section-rich">
 				<h1>How the rich are investing.</h1>
