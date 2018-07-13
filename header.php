@@ -44,6 +44,10 @@
     									'container_class' => 'primary-menu',
           					) );
           				?>
+
+
+
+
                   <div class="heading-social flex-row">
                     <!-- Social media ----->
                       <a href="https://www.instagram.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-instagram-icon.svg" alt=""></a>
@@ -52,6 +56,7 @@
                       <a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-youtube-icon.svg" alt=""></a>
                   </div>
                   <!-- navbar right top END -->
+
                 </div>
 
                 <?php
@@ -63,23 +68,25 @@
 
               </div>
 
+
+														    <!-- hamburger menu-->
+																<div class="hamburger" id="hamburger-9">
+														      <span class="line"></span>
+														      <span class="line"></span>
+														      <span class="line"></span>
+														    </div>
+														    <div id="dropdown-menu" class="dropdown">
+														      <ul>
+														        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
+														        <li><a href="<?php echo get_permalink(get_page_by_path( "about" )); ?>">ABOUT</a></li>
+														        <li><a href="<?php echo get_permalink(get_page_by_path( "affilliate" )); ?>">AFFILLIATE-INCENTIVES</a></li>
+														        <li><a href="<?php echo get_permalink(get_page_by_path( "contact" )); ?>">CONTACT</a></li>
+														      </ul>
+														    </div>
+
 		    </div>
 		</nav>
 
-<!--     hamburger menu-->
-		<div class="hamburger" id="hamburger-9">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
-    <div id="dropdown-menu" class="dropdown">
-      <ul>
-        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
-        <li><a href="<?php echo get_permalink(get_page_by_path( "about" )); ?>">ABOUT</a></li>
-        <li><a href="<?php echo get_permalink(get_page_by_path( "affilliate" )); ?>">AFFILLIATE-INCENTIVES</a></li>
-        <li><a href="<?php echo get_permalink(get_page_by_path( "contact" )); ?>">CONTACT</a></li>
-      </ul>
-    </div>
 
 
 	</header>
