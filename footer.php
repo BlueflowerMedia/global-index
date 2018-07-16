@@ -33,7 +33,7 @@
 
 		<div>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/global-index-logo-horizontal.png" alt="Global Index">
+					<img id="logo-footer" src="<?php echo get_template_directory_uri(); ?>/images/global-index-logo-horizontal.png" alt="Global Index">
 				</a>
 		</div>
 

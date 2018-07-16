@@ -1790,7 +1790,9 @@ nav#site-navigation {
 
 #colophon .container {
   text-align: center;
-  background-color: #242424; }
+  background-color: #242424;
+  margin: 0;
+  width: 100%; }
   #colophon .container .footer-social {
     width: 70px; }
   #colophon .container h4 {
