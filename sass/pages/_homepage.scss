@@ -1,9 +1,6 @@
 // section-slider
 #section-slider {
 	background-color: black;
-	.separator {
-			border-bottom: 10px solid $gold;
-	}
 
 	.right-top {
 	    position: absolute;
@@ -23,6 +20,10 @@
 			}
 		}
 	}
+}
+.separator {
+		border-bottom: 10px solid $gold;
+		z-index: 999999999;
 }
 
 .main-screen {
@@ -221,7 +222,7 @@
 		}
 
     .rich1 {
-      min-width: 400px;
+      min-width: 350px;
       width: 50%;
 			margin: 20px 0;
 			padding: 0 20px;

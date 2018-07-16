@@ -45,9 +45,6 @@
           					) );
           				?>
 
-
-
-
                   <div class="heading-social flex-row">
                     <!-- Social media ----->
                       <a href="https://www.instagram.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-instagram-icon.svg" alt=""></a>
@@ -68,25 +65,45 @@
 
               </div>
 
+							<!-- hamburger menu-->
+							<div class="hamburger-container">
+								<div class="hamburger" id="hamburger-9">
+									<span class="line"></span>
+									<span class="line"></span>
+									<span class="line"></span>
+								</div>
+							</div>
 
-														    <!-- hamburger menu-->
-																<div class="hamburger" id="hamburger-9">
-														      <span class="line"></span>
-														      <span class="line"></span>
-														      <span class="line"></span>
-														    </div>
-														    <div id="dropdown-menu" class="dropdown">
-														      <ul>
-														        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
-														        <li><a href="<?php echo get_permalink(get_page_by_path( "about" )); ?>">ABOUT</a></li>
-														        <li><a href="<?php echo get_permalink(get_page_by_path( "affilliate" )); ?>">AFFILLIATE-INCENTIVES</a></li>
-														        <li><a href="<?php echo get_permalink(get_page_by_path( "contact" )); ?>">CONTACT</a></li>
-														      </ul>
-														    </div>
 
 		    </div>
 		</nav>
+		<div id="dropdown-menu" class="dropdown">
+			<div class="mobile-img">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img id="pic-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-logo-vertical.png" alt="Global Index">
+				</a>
+			</div>
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'primary',
+					'container_class' => 'mobile-menu',
+				) );
+			?>
+			<h3>Our Products</h3>
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'secondary',
+					'container_class' => 'mobile-menu',
+				) );
+			?>
 
+<!-- 			<ul>
+	<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a></li>
+	<li><a href="<?php echo get_permalink(get_page_by_path( "about" )); ?>">ABOUT</a></li>
+	<li><a href="<?php echo get_permalink(get_page_by_path( "affilliate" )); ?>">AFFILLIATE-INCENTIVES</a></li>
+	<li><a href="<?php echo get_permalink(get_page_by_path( "contact" )); ?>">CONTACT</a></li>
+</ul> -->
+		</div>
 
 
 	</header>
