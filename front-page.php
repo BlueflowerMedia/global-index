@@ -34,28 +34,28 @@
 
     <div class="categories">
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
-        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><h3>Gold Coins & Bars</h3></a>
+        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
+        <h3>Gold Coins & Bars</h3></a>
       </div>
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-silver.png" alt="">
-        <a href="<?php echo get_term_link( 20 ,'product_cat') ?>"><h3>Silver Coins & Bars</h3></a>
+        <a href="<?php echo get_term_link( 20 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-silver.png" alt="">
+        <h3>Silver Coins & Bars</h3></a>
       </div>
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-real-estate.png" alt="">
-        <a href="<?php echo get_term_link( 21 ,'product_cat') ?>"><h3>Real Estate</h3></a>
+        <a href="<?php echo get_term_link( 21 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-real-estate.png" alt="">
+        <h3>Real Estate</h3></a>
       </div>
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-leather.png" alt="">
-        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><h3>Leather</h3></a>
+        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-leather.png" alt="">
+        <h3>Leather</h3></a>
       </div>
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-card.png" alt="">
-        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><h3>Gold Cards</h3></a>
+        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-card.png" alt="">
+        <h3>Gold Cards</h3></a>
       </div>
       <div class="category flex1">
-        <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-tshirt.png" alt="">
-        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><h3>Merchandise</h3></a>
+        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-tshirt.png" alt="">
+        <h3>Merchandise</h3></a>
       </div>
     </div>
 	</div>
