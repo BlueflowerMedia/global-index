@@ -21,13 +21,13 @@
 		<div class="Social flex-row">
 				<!-- Social media -->
 				<div class="footer-social flex1">
-				<a href="https://www.instagram.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/global-index-instagram-icon.svg" alt=""></a></div>
+				<a href="https://www.instagram.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-instagram-icon.svg" alt=""></a></div>
 				<div class="footer-social flex1">
-				<a href="https://www.twitter.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/global-index-twitter-icon.svg" alt=""></a></div>
+				<a href="https://www.twitter.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-twitter-icon.svg" alt=""></a></div>
 				<div class="footer-social flex1">
-				<a href="https://www.facebook.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/global-index-facebook-icon.svg" alt=""></a></div>
+				<a href="https://www.facebook.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-facebook-icon.svg" alt=""></a></div>
 				<div class="footer-social flex1">
-				<a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/global-index-youtube-icon.svg" alt=""></a>
+				<a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_stylesheet_directory_uri(); ?>/images/global-index-youtube-icon.svg" alt=""></a>
 				</div>
     </div>
 

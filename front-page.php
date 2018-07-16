@@ -35,27 +35,27 @@
     <div class="categories">
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/Global-index-gold.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Gold Coins & Bars</h3></a>
+        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><h3>Gold Coins & Bars</h3></a>
       </div>
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-silver.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Silver Coins & Bars</h3></a>
+        <a href="<?php echo get_term_link( 20 ,'product_cat') ?>"><h3>Silver Coins & Bars</h3></a>
       </div>
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-real-estate.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Real Estate</h3></a>
+        <a href="<?php echo get_term_link( 21 ,'product_cat') ?>"><h3>Real Estate</h3></a>
       </div>
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-leather.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Leather</h3></a>
+        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><h3>Leather</h3></a>
       </div>
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-card.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Gold Cards</h3></a>
+        <a href="<?php echo get_term_link( 19 ,'product_cat') ?>"><h3>Gold Cards</h3></a>
       </div>
       <div class="category flex1">
         <img class="picturecategory" src="<?php echo get_stylesheet_directory_uri(); ?>/images/main-categories/global-index-main-tshirt.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Merchandise</h3></a>
+        <a href="<?php echo get_term_link( 22 ,'product_cat') ?>"><h3>Merchandise</h3></a>
       </div>
     </div>
 	</div>

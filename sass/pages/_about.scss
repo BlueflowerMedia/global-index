@@ -1,0 +1,26 @@
+#section-about .about-container{
+	padding: 0;
+	margin: 0;
+  background: url("./images/about/global-index-banner-1.png") no-repeat top center;
+  background-size: cover;
+	height: 100%;
+	position: relative;
+	min-height: 65vh;
+}
+
+.about-content {
+	max-width: 700px;
+	position: absolute;
+	width: 500px;
+	right: 0;
+	h2 {
+		color: white;
+		padding: 0;
+		margin: 0;
+	}
+	p {
+		color: white;
+		padding: 0;
+		margin: 0;
+	}
+}

@@ -35,6 +35,7 @@ function multipurpose_shop_enqueue_child_styles() {
 	wp_enqueue_style( 'multipurpose-shop-animation', get_stylesheet_directory_uri() . '/assets/woocommerce/animation.css' );
 	wp_enqueue_style( 'multipurpose-shop-woocommerce', get_stylesheet_directory_uri() . '/assets/woocommerce/woocommerce.css' );
 
+		wp_enqueue_style( 'blueflowermedia-fontawesome', 'https://use.fontawesome.com/releases/v5.0.12/css/all.css' );
 
 	/*THEME JS */
 	wp_enqueue_script( 'customselect', get_stylesheet_directory_uri (). '/assets/js/customselect.js', 0, '', true );
