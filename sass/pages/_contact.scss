@@ -15,8 +15,9 @@
       text-align: center;
     }
   }
-  h3 {
+  h2 {
     color: $gold;
+    padding: 5px;
   }
   .contact-info {
     i {
@@ -40,4 +41,40 @@
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+// contact part -------------------------
+.forms {
+  .contact1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    @include mobile {
+      flex-flow: column;
+    }
+  }
+
+  .contact1 input {
+    background-color: rgba(#ffffff, 0);
+    border-radius: 15px;
+    border-width: 3px;
+    flex: 1;
+    padding: 15px;
+    margin: 20px;
+  }
+  .contact2 {
+    text-align: center;
+    font-size: 2px;
+  }
+}
+.wpcf7-submit {
+  background-color: white;
+  color: $black;
+  font-size: 1.2rem;
+  width: 150px;
+  border-radius: 10px;
+}
+
+[placeholder] {
+color: white !important;
 }

@@ -9,7 +9,7 @@
     <div class="row flex-row">
       <div class="contact-info flex1">
 
-        <h3>Contact Us:</h3>
+        <h2>Contact Us:</h2>
         <p>
           <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a>(647)561-8884
         </p>
