@@ -1835,7 +1835,7 @@ nav#site-navigation {
 #section-contact-forms .container {
   background-color: #242424;
   margin: 0;
-  padding: 0; }
+  padding-top: 0; }
   #section-contact-forms .container .head-appointment {
     padding: 0;
     margin: 0;
