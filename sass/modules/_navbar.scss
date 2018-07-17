@@ -77,7 +77,7 @@ nav#site-navigation {
 	}
 
 	&:hover {
-		/* color: white; */
+		color: white;
 		&:after {
 			transform: scaleY(0.25) translateY(25px);
 			box-shadow: none;
