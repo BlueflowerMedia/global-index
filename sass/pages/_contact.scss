@@ -63,16 +63,17 @@
     margin: 20px;
   }
   .contact2 {
-    //text-align: center;
+    text-align: center;
     font-size: 2px;
   }
 }
 .wpcf7-submit {
   background-color: white;
   color: $black;
+  font-size: 1.2rem;
+  width: 150px;
   border-radius: 10px;
 }
-
 [placeholder] {
 color: white !important;
 }

@@ -1879,11 +1879,14 @@ nav#site-navigation {
   padding: 15px;
   margin: 20px; }
 .forms .contact2 {
+  text-align: center;
   font-size: 2px; }
 
 .wpcf7-submit {
   background-color: white;
   color: #242424;
+  font-size: 1.2rem;
+  width: 150px;
   border-radius: 10px; }
 
 [placeholder] {
