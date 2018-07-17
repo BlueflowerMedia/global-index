@@ -3,13 +3,13 @@
 
 <section id="section-contact-forms">
   <div class="container">
-    <div class="head-appointment row">
-      <h1>Contact Us</h1>
-    </div>
+<!--     <div class="head-appointment row">
+  <h1>Contact Us</h1>
+</div> -->
     <div class="row flex-row">
       <div class="contact-info flex1">
 
-        <h3>Information:</h3>
+        <h3>Contact Us:</h3>
         <p>
           <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a>(647)561-8884
         </p>
