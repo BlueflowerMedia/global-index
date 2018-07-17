@@ -1848,7 +1848,7 @@ nav#site-navigation {
       text-align: center; }
   #section-contact-forms .container h2 {
     color: #ffa729;
-    padding: 5px auto; }
+    padding: 10px; }
   #section-contact-forms .container .contact-info i {
     font-size: 2rem;
     padding: 10px; }
@@ -1879,13 +1879,11 @@ nav#site-navigation {
   padding: 15px;
   margin: 20px; }
 .forms .contact2 {
-  text-align: center;
   font-size: 2px; }
 
 .wpcf7-submit {
   background-color: white;
   color: #242424;
-  font-size: 1rem;
   border-radius: 10px; }
 
 [placeholder] {
