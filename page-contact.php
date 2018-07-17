@@ -1,35 +1,36 @@
 <?php get_header(); ?>
 
- <h2 class="head-appointment">Contact Us</h2>
 
 <section id="section-contact-forms">
-  <div class="container flex-row">
+  <div class="container">
+    <div class="head-appointment row">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="row flex-row">
+      <div class="contact-info flex1">
 
-        <div class="contact-info flex1">
-          <h3>Info<span class="big-dot blue">.</span></h3>
-          <p>
-            <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a>
-            <br>(647)561-8884
-          </p>
-          <p>
-            <a href=""><i class="fas fa-fax-volume" style="color:#ffa729"></i></a>
-            <br>(647)477-1255
-          </p>
-          <p>
-            <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a>
-            <br>contact@gmail.com
-          </p>
-          <p>
-            <a href=""><i class="fas fa-map-marker" style="color:#ffa729"></i></a>
-            <br>2478 Kingston Road, Toronto, ON<br>M1N 3W5, Canada
-          </p>
-        </div>
+        <h3>Information:</h3>
+        <p>
+          <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a>(647)561-8884
+        </p>
+        <p>
+          <a href=""><i class="fas fa-fax" style="color:#ffa729"></i></a>(647)477-1255
+        </p>
+        <p>
+          <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a>contact@gmail.com
+        </p>
+        <p>
+          <a href=""><i class="fas fa-map-marker" style="color:#ffa729"></i></a>2478 Kingston Road, Toronto, ON<br>M1N 3W5, Canada
+        </p>
+      </div>
 
 
-        <div class="forms flex1">
-          <h3>Contact Form</h3>
-          <?php echo do_shortcode('[contact-form-7 id="97" title="Contact form 1"]') ?>
-        </div>
+      <div class="forms flex1">
+        <h3>Let us get back to you!</h3>
+        <?php echo do_shortcode( '[contact-form-7 id="191" title="Contact form 1"]' ); ?>
+      </div>
+
+    </div>
 
   </div>
 
