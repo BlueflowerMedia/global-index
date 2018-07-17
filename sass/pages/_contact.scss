@@ -70,8 +70,9 @@
 .wpcf7-submit {
   background-color: white;
   color: $black;
-  //font-size: 1rem;
+  font-size: 1rem;
   border-radius: 10px;
+  min-width: 10%;
 }
 
 [placeholder] {

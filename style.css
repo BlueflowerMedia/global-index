@@ -1884,7 +1884,9 @@ nav#site-navigation {
 .wpcf7-submit {
   background-color: white;
   color: #242424;
-  border-radius: 10px; }
+  font-size: 1rem;
+  border-radius: 10px;
+  min-width: 10%; }
 
 [placeholder] {
   color: white !important; }
