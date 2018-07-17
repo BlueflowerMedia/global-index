@@ -1848,10 +1848,10 @@ nav#site-navigation {
       text-align: center; }
   #section-contact-forms .container h2 {
     color: #ffa729;
-    padding: 5px; }
+    padding: 5px auto; }
   #section-contact-forms .container .contact-info i {
     font-size: 2rem;
-    padding: 0 10px; }
+    padding: 10px; }
   #section-contact-forms .container .contact-info p {
     font-size: 1.5rem;
     color: white; }
@@ -1886,7 +1886,7 @@ nav#site-navigation {
   background-color: white;
   color: #242424;
   font-size: 1.2rem;
-  width: 150px;
+  width: auto;
   border-radius: 10px; }
 
 [placeholder] {

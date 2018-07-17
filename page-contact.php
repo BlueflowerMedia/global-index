@@ -25,7 +25,7 @@
       </div>
 
       <div class="forms flex1">
-        <h3>Let us get back to you!</h3>
+        <h2>Let us get back to you!</h2>
         <?php echo do_shortcode( '[contact-form-7 id="191" title="Contact form 1"]' ); ?>
       </div>
 
