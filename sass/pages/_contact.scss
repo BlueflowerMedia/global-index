@@ -1,37 +1,35 @@
 
-#section-contact-forms .container {
+#section-contact-forms {
   background-color: $black;
-  .separator {
-    width: 100%;
-    display: block;
-  }
-  .head-appointment {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    h1 {
-      color: white;
-      margin: 0;
+
+  .container {
+    .head-appointment {
       padding: 0;
+      margin: 0;
       text-align: center;
+      h1 {
+        color: white;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
     }
-  }
-  h2 {
-    color: $gold;
-    padding: 10px;
-  }
-  .contact-info {
-    i {
-      font-size: 2rem;
-      padding: 15px;
+    h2 {
+      color: $gold;
+      padding: 10px;
     }
-    p {
-      font-size: 1.5rem;
-      color: white;
+    .contact-info {
+      i {
+        font-size: 2rem;
+        padding: 15px;
+      }
+      p {
+        font-size: 1.5rem;
+        color: white;
+      }
     }
   }
 }
-
 // part map
 #contact-map .container {
   padding: 0;
@@ -65,12 +63,12 @@
 
   }
   .wpcf7-submit {
-  background-color: white;
-  color: $black;
-  font-size: 1.2rem;
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px 0;
+    background-color: white;
+    color: $black;
+    font-size: 1.2rem;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
     &:hover {
       background-color: $gold;
       cursor: pointer;
