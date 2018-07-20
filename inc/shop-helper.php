@@ -71,7 +71,7 @@ if( !function_exists('multipurpose_shop_blog_widgets') ){
             </aside><!-- #secondary -->
             
         <?php else: ?>
-    		<?php get_sidebar();?>
+    		<?php ;?>
         <?php endif; ?>
     </div>	
     <?php
