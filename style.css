@@ -1854,7 +1854,7 @@ nav#site-navigation {
   #section-contact-forms .container .contact-info p {
     font-size: 1.5rem;
     color: white; }
-  #section-contact-forms .container .forms input {
+  #section-contact-forms .container .forms input[type="text"] {
     margin: 4px;
     min-width: 100%; }
 
