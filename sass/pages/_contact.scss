@@ -45,7 +45,15 @@
 
 // contact part -------------------------
 #section-contact-forms {
-  justify-content: flex-start;
+  .forms {
+    .contact1 {
+      justify-content: flex-start;
+    }
+  }
+  .contact2 {
+    text-align: left;
+    font-size: 2px;
+  }
 }
 .forms {
   .contact1 {

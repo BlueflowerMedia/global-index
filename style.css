@@ -1863,8 +1863,11 @@ nav#site-navigation {
   margin: 0;
   width: 100%; }
 
-#section-contact-forms {
+#section-contact-forms .forms .contact1 {
   justify-content: flex-start; }
+#section-contact-forms .contact2 {
+  text-align: left;
+  font-size: 2px; }
 
 .forms .contact1 {
   display: flex;
