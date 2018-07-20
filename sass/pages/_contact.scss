@@ -29,11 +29,6 @@
       color: white;
     }
   }
-
-  .forms input[type="text"] {
-      margin: 4px;
-      min-width: 100%;
-  }
 }
 
 // part map
@@ -46,47 +41,32 @@
 // contact part -------------------------
 #section-contact-forms {
   .forms {
-    .contact1 {
-      justify-content: flex-start;
+    .contact1 input {
+      background-color: rgba(#ffffff, 0);
+      border-radius: 15px;
+      border-width: 3px;
+      flex: 1;
+      padding: 15px;
+      margin: 10px 0;
+      min-width: 100%;
     }
   }
-  .contact2 {
-    text-align: left;
-    font-size: 2px;
-    padding: 8px 0;
-    width: 100%;
+  .wpcf7-text {
+    padding: 10px 0;
   }
-}
-.forms {
-  .contact1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    @include mobile {
-      flex-flow: column;
-    }
-  }
-
-  .contact1 input {
+  .wpcf7-textarea {
     background-color: rgba(#ffffff, 0);
     border-radius: 15px;
     border-width: 3px;
-    flex: 1;
+    min-width: 100%;
     padding: 15px;
-    margin: 20px;
   }
-  .contact2 {
-    text-align: center;
-    font-size: 2px;
-  }
-}
-.wpcf7-submit {
+  .wpcf7-submit {
   background-color: white;
   color: $black;
   font-size: 1.2rem;
-  width: 150px;
+  width: 100%;
   border-radius: 10px;
-}
-[placeholder] {
-color: white !important;
+  margin: 10px 0;
+  }
 }

@@ -11,16 +11,16 @@
 
         <h2>Contact Us:</h2>
         <p>
-          <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a>(647)561-8884
+          <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a><br>(647)561-8884
         </p>
         <p>
-          <a href=""><i class="fas fa-fax" style="color:#ffa729"></i></a>(647)477-1255
+          <a href=""><i class="fas fa-fax" style="color:#ffa729"></i></a><br>(647)477-1255
         </p>
         <p>
-          <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a>contact@gmail.com
+          <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a><br>contact@gmail.com
         </p>
         <p>
-          <a href=""><i class="fas fa-map-marker-alt" style="color:#ffa729"></i></a>2478 Kingston Road, Toronto, ON<br>M1N 3W5, Canada
+          <a href=""><i class="fas fa-map-marker-alt" style="color:#ffa729"></i></a><br>2478 Kingston Road,<br>Toronto, M1N 3W5<br>ON, Canada
         </p>
       </div>
 

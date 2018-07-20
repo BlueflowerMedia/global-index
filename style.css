@@ -1854,50 +1854,35 @@ nav#site-navigation {
   #section-contact-forms .container .contact-info p {
     font-size: 1.5rem;
     color: white; }
-  #section-contact-forms .container .forms input[type="text"] {
-    margin: 4px;
-    min-width: 100%; }
 
 #contact-map .container {
   padding: 0;
   margin: 0;
   width: 100%; }
 
-#section-contact-forms .forms .contact1 {
-  justify-content: flex-start; }
-#section-contact-forms .contact2 {
-  text-align: left;
-  font-size: 2px;
-  padding: 8px 0;
-  width: 100%; }
-
-.forms .contact1 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center; }
-  @media (max-width: 760px) {
-    .forms .contact1 {
-      flex-flow: column; } }
-.forms .contact1 input {
+#section-contact-forms .forms .contact1 input {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 15px;
   border-width: 3px;
   flex: 1;
   padding: 15px;
-  margin: 20px; }
-.forms .contact2 {
-  text-align: center;
-  font-size: 2px; }
-
-.wpcf7-submit {
+  margin: 10px 0;
+  min-width: 100%; }
+#section-contact-forms .wpcf7-text {
+  padding: 10px 0; }
+#section-contact-forms .wpcf7-textarea {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  border-width: 3px;
+  min-width: 100%;
+  padding: 15px; }
+#section-contact-forms .wpcf7-submit {
   background-color: white;
   color: #242424;
   font-size: 1.2rem;
-  width: 150px;
-  border-radius: 10px; }
-
-[placeholder] {
-  color: white !important; }
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0; }
 
 #section-slider {
   background-color: black; }
@@ -2002,7 +1987,8 @@ nav#site-navigation {
       padding: 30px;
       flex-direction: column; }
       #main-categories .category-container .category a {
-        text-decoration: none; }
+        text-decoration: none;
+        text-align: center; }
       #main-categories .category-container .category img {
         object-fit: cover;
         background-color: #eeeeef;

@@ -2,9 +2,9 @@
 
 <?php
   $gold_id = 19;
-  $silver_id = 20;
-  $real_id = 21;
-  $merch_id = 22;
+  $silver_id = 19;
+  $real_id = 19;
+  $merch_id = 19;
  ?>
 <!-- section header -->
 
