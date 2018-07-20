@@ -2,6 +2,7 @@
 
 
 <section id="section-contact-forms">
+  <div class="separator"></div>
   <div class="container">
 <!--     <div class="head-appointment row">
   <h1>Contact Us</h1>
@@ -11,10 +12,10 @@
 
         <h2>Contact Us:</h2>
         <p>
-          <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a><br>(647)561-8884
+          <a href=""><i class="fas fa-phone-volume" style="color:#ffa729"></i></a><br>647-561-8884
         </p>
         <p>
-          <a href=""><i class="fas fa-fax" style="color:#ffa729"></i></a><br>(647)477-1255
+          <a href=""><i class="fas fa-fax" style="color:#ffa729"></i></a><br>647-477-1255
         </p>
         <p>
           <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a><br>contact@gmail.com

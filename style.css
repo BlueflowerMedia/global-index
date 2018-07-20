@@ -1832,10 +1832,10 @@ nav#site-navigation {
     margin: 0; }
 
 #section-contact-forms .container {
-  background-color: #242424;
-  margin-top: 0;
-  padding-top: 0;
-  width: 100%; }
+  background-color: #242424; }
+  #section-contact-forms .container .separator {
+    width: 100%;
+    display: block; }
   #section-contact-forms .container .head-appointment {
     padding: 0;
     margin: 0;
@@ -1850,7 +1850,7 @@ nav#site-navigation {
     padding: 10px; }
   #section-contact-forms .container .contact-info i {
     font-size: 2rem;
-    padding: 10px; }
+    padding: 15px; }
   #section-contact-forms .container .contact-info p {
     font-size: 1.5rem;
     color: white; }
@@ -1865,7 +1865,7 @@ nav#site-navigation {
   border-radius: 15px;
   border-width: 3px;
   flex: 1;
-  padding: 15px;
+  padding: 10px;
   margin: 10px 0;
   min-width: 100%; }
 #section-contact-forms .wpcf7-text {
@@ -1875,7 +1875,8 @@ nav#site-navigation {
   border-radius: 15px;
   border-width: 3px;
   min-width: 100%;
-  padding: 15px; }
+  padding: 10px;
+  margin: 10px 0; }
 #section-contact-forms .wpcf7-submit {
   background-color: white;
   color: #242424;
@@ -1883,6 +1884,10 @@ nav#site-navigation {
   width: 100%;
   border-radius: 10px;
   margin: 10px 0; }
+  #section-contact-forms .wpcf7-submit:hover {
+    background-color: #ffa729;
+    cursor: pointer;
+    color: white; }
 
 #section-slider {
   background-color: black; }
