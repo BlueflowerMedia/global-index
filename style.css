@@ -1867,7 +1867,8 @@ nav#site-navigation {
   justify-content: flex-start; }
 #section-contact-forms .contact2 {
   text-align: left;
-  font-size: 2px; }
+  font-size: 2px;
+  padding: 8px 0; }
 
 .forms .contact1 {
   display: flex;

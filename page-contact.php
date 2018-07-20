@@ -20,7 +20,7 @@
           <a href=""><i class="fas fa-envelope-square" style="color:#ffa729"></i></a>contact@gmail.com
         </p>
         <p>
-          <a href=""><i class="fal fa-map-marker-alt" style="color:#ffa729"></i></a>2478 Kingston Road, Toronto, ON<br>M1N 3W5, Canada
+          <a href=""><i class="fas fa-map-marker-alt" style="color:#ffa729"></i></a>2478 Kingston Road, Toronto, ON<br>M1N 3W5, Canada
         </p>
       </div>
 
